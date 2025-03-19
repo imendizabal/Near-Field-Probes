@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "8a01695d-07f4-4022-890d-53f762312e93")
 	(paper "A4")
+	(title_block
+		(title "Near Field Probes PCB Kit")
+		(date "2025-03-19")
+		(rev "1.0")
+		(company "Ignacio de Mendizabal")
+		(comment 1 "https://github.com/imendizabal/Near-Field-Probes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers
@@ -272,6 +279,20 @@
 		(at 69.85 58.42)
 		(uuid "49e5947d-1199-4989-b9cd-d34c2563765a")
 	)
+	(no_connect
+		(at 69.85 78.74)
+		(uuid "fd37b34c-42f0-4f55-8da8-010425ea6515")
+	)
+	(wire
+		(pts
+			(xy 69.85 78.74) (xy 60.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6f293e-2d5c-42bc-bdac-17e9a6f355a9")
+	)
 	(wire
 		(pts
 			(xy 55.88 58.42) (xy 50.8 58.42)
@@ -281,6 +302,16 @@
 			(type default)
 		)
 		(uuid "61d94c41-d00e-466e-8ff5-e0486272ec7d")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c01ab3b-fffd-4db6-b54f-034bdd74fed2")
 	)
 	(wire
 		(pts
@@ -294,6 +325,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 78.74) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8149777-5bef-4ad6-969f-5123e4702355")
+	)
+	(wire
+		(pts
 			(xy 69.85 58.42) (xy 60.96 58.42)
 		)
 		(stroke
@@ -301,6 +342,16 @@
 			(type default)
 		)
 		(uuid "bc776dfc-918e-4768-988a-6b553d984b1c")
+	)
+	(label "E_SIGNAL"
+		(at 68.58 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2df0482c-b400-46f3-b533-56b5228fb031")
 	)
 	(label "E_SIGNAL"
 		(at 68.58 58.42 180)
@@ -443,6 +494,142 @@
 			(project ""
 				(path "/8a01695d-07f4-4022-890d-53f762312e93"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 58.42 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d670d96a-769f-4052-86c7-f4e89b5cf872")
+		(property "Reference" "J2"
+			(at 52.07 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 58.9396 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9978dca1-bf5f-40c4-90fc-c1743dc129bd")
+		)
+		(pin "2"
+			(uuid "184528af-daf3-424e-9af1-b82cd9c1017d")
+		)
+		(instances
+			(project "Near-Field Probes"
+				(path "/8a01695d-07f4-4022-890d-53f762312e93"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40fa122-bbea-4780-83da-6c7cdd0b3d57")
+		(property "Reference" "#PWR02"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a28f6ff-e444-4376-8981-9eb4997349e2")
+		)
+		(instances
+			(project "Near-Field Probes"
+				(path "/8a01695d-07f4-4022-890d-53f762312e93"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
