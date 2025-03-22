@@ -9,7 +9,8 @@
 		(date "2025-03-19")
 		(rev "1.0")
 		(company "Ignacio de Mendizabal")
-		(comment 1 "https://github.com/imendizabal/Near-Field-Probes")
+		(comment 1 "https://www.ignaciodemendizabal.com")
+		(comment 2 "https://github.com/imendizabal/Near-Field-Probes")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
