@@ -15,8 +15,8 @@ This repository provides **KiCAD PCB designs** and documentation for **Near-Fiel
 
 ## Models
 
-![Near Field Probes Kit - 3D Top View](Img/Near Field Probes Kit 3D - Top.png)
-![Near Field Probes Kit - 3D Bottom View](Img/Near Field Probes Kit 3D - Bottom.png)
+![Near Field Probes Kit - 3D Top View](Img/3DTop.png)
+![Near Field Probes Kit - 3D Bottom View](Img/3DBottom.png)
 
 ## Contributions
 Contributions are welcome! Feel free to submit **pull requests** with improvements or new probe designs.
