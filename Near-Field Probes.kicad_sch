@@ -276,23 +276,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 69.85 58.42)
-		(uuid "49e5947d-1199-4989-b9cd-d34c2563765a")
-	)
-	(no_connect
-		(at 69.85 78.74)
-		(uuid "fd37b34c-42f0-4f55-8da8-010425ea6515")
-	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 60.96 78.74)
+			(xy 60.96 58.42) (xy 73.66 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c6f293e-2d5c-42bc-bdac-17e9a6f355a9")
+		(uuid "3804d07b-8640-4f49-b1c8-11281be5b676")
 	)
 	(wire
 		(pts
@@ -303,6 +295,16 @@
 			(type default)
 		)
 		(uuid "61d94c41-d00e-466e-8ff5-e0486272ec7d")
+	)
+	(wire
+		(pts
+			(xy 60.96 78.74) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dfc893-42d0-41ed-9c4b-773a22ed9013")
 	)
 	(wire
 		(pts
@@ -334,18 +336,8 @@
 		)
 		(uuid "b8149777-5bef-4ad6-969f-5123e4702355")
 	)
-	(wire
-		(pts
-			(xy 69.85 58.42) (xy 60.96 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc776dfc-918e-4768-988a-6b553d984b1c")
-	)
-	(label "E_SIGNAL"
-		(at 68.58 78.74 180)
+	(label "H_SIGNAL"
+		(at 73.66 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -355,7 +347,7 @@
 		(uuid "2df0482c-b400-46f3-b533-56b5228fb031")
 	)
 	(label "E_SIGNAL"
-		(at 68.58 58.42 180)
+		(at 73.66 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
