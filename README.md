@@ -13,6 +13,11 @@ This repository provides **KiCAD PCB designs** and documentation for **Near-Fiel
 3. **Calibrate** the probe using a VNA
 4. **Perform near-field scanning** for EMC diagnostics
 
+## Models
+
+![Near Field Probes Kit - 3D Top View](Img/Near Field Probes Kit 3D - Top.png)
+![Near Field Probes Kit - 3D Bottom View](Img/Near Field Probes Kit 3D - Bottom.png)
+
 ## Contributions
 Contributions are welcome! Feel free to submit **pull requests** with improvements or new probe designs.
 
@@ -36,5 +41,7 @@ I’m an electronic designer and EMC engineer with 10+ years of experience helpi
 This work exists because of the contribution of other amazing designers and creatives
 
 [Unit 3 Compliance Near Field Probes (Thank you James!)](https://www.unit3compliance.co.uk/probe5/)
+
 [PCB kit in Altium](https://github.com/ketszim97/NearField_PCB_Probes)
+
 [OpenFieldProbe](https://github.com/goopypanther/OpenFieldProbe)
