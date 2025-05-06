@@ -27,7 +27,8 @@ This project is licensed under the **GNU General Public License (GPL)** – you 
 ## About the Author
 Ey, I am Ignacio! 👋🏼
 
-I’m an electronic designer and EMC engineer with 10+ years of experience helping companies across automotive, industrial, medical, and IoT sectors solve EMC challenges at the design stage. My goal is to make EMC accessible, affordable and understandable. I love creating content and make complex concepts easy.
+I’m an electronic designer and EMC fan with experience helping companies across automotive, industrial, medical, and IoT sectors solve EMC challenges at the design stage. 
+My goal is to make EMC accessible, affordable and understandable. I love creating content and making complex concepts easy.
 
 ### Where to find me?
 
