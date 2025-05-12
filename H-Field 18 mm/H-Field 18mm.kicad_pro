@@ -502,7 +502,7 @@
       "plot": "Doc/Manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Doc/3D/H-Field 18mm.step",
       "svg": "",
       "vrml": ""
     },
