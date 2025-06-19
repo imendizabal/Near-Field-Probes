@@ -24,6 +24,11 @@ Contributions are welcome! Feel free to submit **pull requests** with improvemen
 ## License
 This project is licensed under the **GNU General Public License (GPL)** – you are free to use, modify, and distribute it, but any derivative work must also be open-source under the same license.
 
+## Hall of Fame
+[Interference Technology 2025](https://interferencetechnology.com/2025-item-magazine/)
+
+[Hackaday page](https://hackaday.io/project/202752-near-field-probes-pcb-kit)
+
 ## About the Author
 Ey, I am Ignacio! 👋🏼
 
