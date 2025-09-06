@@ -17,7 +17,7 @@ This repository provides **KiCAD PCB designs** and documentation for **Near-Fiel
 
 ![E-Field Near Field Probe - 3D Top View](Img/EField-Top.png)
 ![H-Field Near Field Probe - 3D Bottom View](Img/HField-Top.png)
-![Measuring with a H-Field Near Field Probe](Img/H-Field Probe_DCDC_1.jpg)
+![Measuring with a H-Field Near Field Probe](Img/H-FieldProbe_DCDC_1.jpg)
 
 ## Contributions
 Contributions are welcome! Feel free to submit **pull requests** with improvements or new probe designs.
