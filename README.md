@@ -15,9 +15,9 @@ This repository provides **KiCAD PCB designs** and documentation for **Near-Fiel
 
 ## Models
 
+![Measuring with a H-Field Near Field Probe](Img/H-FieldProbe_DCDC_1.jpg)
 ![E-Field Near Field Probe - 3D Top View](Img/EField-Top.png)
 ![H-Field Near Field Probe - 3D Bottom View](Img/HField-Top.png)
-![Measuring with a H-Field Near Field Probe](Img/H-FieldProbe_DCDC_1.jpg)
 
 ## Contributions
 Contributions are welcome! Feel free to submit **pull requests** with improvements or new probe designs.
@@ -27,6 +27,8 @@ This project is licensed under the **GNU General Public License (GPL)** – you 
 
 ## Hall of Fame
 [Interference Technology 2025](https://interferencetechnology.com/2025-item-magazine/)
+
+[Interference Technology Page - What You Need to Know to Design Your Own Kit of Near-Field Probes](https://interferencetechnology.com/what-you-need-to-know-to-design-your-own-kit-of-near-field-probes/)
 
 [Hackaday page](https://hackaday.io/project/202752-near-field-probes-pcb-kit)
 
